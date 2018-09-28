@@ -1,6 +1,7 @@
 # MEDICAL NEWS TODAY
 NewsApp:
 you can see News app through this link https://chem-e.github.io/newsApp/.
+
 Uses the https://newsapi.org/ to request News data.
 
 #LANGUAGES ARE:
