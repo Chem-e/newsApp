@@ -65,43 +65,50 @@ header{
 }
 
 .title{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  border-bottom: 3px solid #969696;
+
 }
 #heading{
-	width: 70%;
+	width: 80%;
 	font-size: 2em;
-  	font-family: 'Noto Sans', sans-serif;
-   /*border: 1px solid black;*/
-    padding: 10px;
-    /*height: 200px;*/
-    text-align: justify;
-    background-image: url("images/bg.JPG");
-	background-size: cover;
-	background-repeat: no-repeat;
+ font-family: 'Noto Sans', sans-serif;
+ text-align: justify;
+ background-image: url("images/bg.JPG");
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin:30px;
+ padding: 0px 20px 0px 20px; 
 
 }
 
 @media only screen and (max-width: 965px) {
-    .main div {
-        width: 48%;
-    }
-    .img{
-    	height: 250px;
-    }
+  .main div {
+    width: 48%;
+  }
+  .img{
+   height: 250px;
+ }
 }
 
 @media only screen and (max-width: 655px) {
-    .main div {
-        width: 100%;
-    }
-    .img{
-    	height: 250px;
-    }
+  .main div {
+    width: 100%;
+  }
+  .img{
+   height: 250px;
+ }
 }
 
 .header {
   overflow: hidden
 
+}
+.logo{
+  height: 75px;
+  width:300px;
 }
 
 .header a {
@@ -113,12 +120,13 @@ header{
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
-}
+  }
 
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
-}
+  }
+
 
 .header-right {
   float: right;
@@ -126,7 +134,7 @@ header{
 @media screen and (max-width: 500px) {
   .header a {
      display: flex;
-    /*flex-direction: column;*/
+     flex-direction: column;
     justify-content: center;
     width: 100%;
     padding: 0px;
@@ -135,25 +143,23 @@ header{
   }
   .header-right {
     float: none;
+    }
   }
-}
 
 
-.fab {
+  .fab {
     float: right;
     font-size: 60px;
     color:gainsboro;
     margin-right: 20px;
-    margin-top: 46px;\
-    margin-bottom: 40px;
     transition: transform .2s;
     background-color: black;
     border-radius: 90px;
     padding: 3px 5px 5px 5px;
     
 
-}
+  }
 
-.fab:hover {
+  .fab:hover {
     transform: scale(1.5);
-}
+  }
